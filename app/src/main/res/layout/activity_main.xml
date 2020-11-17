@@ -6,14 +6,17 @@
     android:orientation="vertical"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-    <ScrollView
-        android:id="@+id/sv_activity_main"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+
         <GridView
             android:id="@+id/gl_images_activity_main"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
-    </ScrollView>
+            android:numColumns="3"
+            android:background="#ddd0"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_height="match_parent"/>
+
 
 </LinearLayout>

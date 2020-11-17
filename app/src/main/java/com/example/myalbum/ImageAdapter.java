@@ -22,7 +22,7 @@ public class ImageAdapter extends BaseAdapter {
 
     @Override
     public int getCount() {
-        return 6;
+        return 60;
     }
 
     @Override
@@ -50,7 +50,7 @@ public class ImageAdapter extends BaseAdapter {
         } else {
             holder = (ViewHolder) convertView.getTag();
         }
-        Picasso.get().load("https://live.staticflickr.com//2053//2205634973_f2cf75c99d.jpg").into(holder.flagView);
+        Picasso.get().load("https://live.staticflickr.com//3745//12237140903_c8314e07df.jpg").into(holder.flagView);
 
         return convertView;
 
